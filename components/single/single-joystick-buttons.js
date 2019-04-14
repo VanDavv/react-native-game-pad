@@ -1,6 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { WebView } from "react-native-webview";
+import { WebView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 const js = options => {
   console.log("OPTIONS", options);
