@@ -225,7 +225,7 @@ class RNGamePadDual extends React.Component {
       <View style={{ flex: 1, flexDirection: "row" }}>
         <View style={{ flex: 1 }}>
           <WebView
-            source={require("./web/index.html")}
+            source={{html: require("./web/index.html")}}
             onMessage={evt => this.invokeCallback(evt.nativeEvent.data)}
             injectedJavaScript={js(options, options2)}
           />
