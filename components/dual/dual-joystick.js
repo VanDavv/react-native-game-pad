@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { StyleSheet, View } from "react-native";
-import { WebView } from "react-native-webview";
+import { StyleSheet, View, WebView } from "react-native";
 
 const js = (options, options2) => {
   let string = `
